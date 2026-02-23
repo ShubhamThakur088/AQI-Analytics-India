@@ -1,4 +1,4 @@
-The AQI-Analytics-India project conducts an analytics of AQI across major Indian cities of 29 states. It helps get insights about the AQIs and their statuses, such as Good, Satisfactory, Moderate, Poor, Very Poor and Severe, from year 2022 to 2025. Along with statuses, it helps identify the prominent pollutant.
+The AQI-Analytics-India project conducts an analysis of AQI across major Indian cities of 29 states. It helps get insights about the AQIs and their statuses, such as Good, Satisfactory, Moderate, Poor, Very Poor and Severe, from year 2022 to 2025. Along with statuses, it helps identify the prominent pollutant.
 
 To help understand the status of Air in a particular city, the air_quality_status column in XLSX file has been coloured as per the AQI varies. To understand how the colours have been assigned, please refer to the following website of CPCB:
 - https://airquality.cpcb.gov.in/AQI_India/
