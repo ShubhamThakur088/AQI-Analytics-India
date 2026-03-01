@@ -16,4 +16,6 @@ To help understand the status of Air in a particular city, the air_quality_statu
  - Tableau
  - Pandas and Numpy (Python)
 
- 
+Further the data of Indian Cities' AQI is to be stored in to the DB, following Schema design can be followed. This design includes two tables. One table contains name of indian states and UTs (indian_states_uts) and second table contains aqi_values, aqi_status, day_of_record, area_name, state_id (FK) and prominent_pollutant
+ <img width="967" height="481" alt="image" src="https://github.com/user-attachments/assets/a401f098-7cf4-4430-84a2-7d70437b3b4d" />
+
