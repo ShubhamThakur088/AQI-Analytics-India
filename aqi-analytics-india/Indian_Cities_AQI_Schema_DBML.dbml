@@ -1,0 +1,18 @@
+Table indian_states_uts [headercolor: #175e7a] {
+	state_id integer [ pk, increment, not null, unique ]
+	state_name varchar(40)
+	state_type varchar(20)
+}
+
+Table area_aqi_status [headercolor: #175e7a] {
+	aqi_id integer [ pk, increment, not null, unique ]
+	state_id integer
+	date_of_record date
+	aqi_index integer
+	prominent_pollutant varchar(40)
+	aqi_status varchar(10)
+}
+
+Ref fk_indian_states_uts_state_id_area_aqi_status {
+	indian_states_uts.state_id < area_aqi_status.state_id [ delete: no action, update: no action ]
+}
