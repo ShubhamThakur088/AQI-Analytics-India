@@ -15,6 +15,7 @@ To help understand the status of Air in a particular city, the air_quality_statu
  - MS Excel
  - Tableau
  - Pandas and Numpy (Python)
+ - Draw DB Vercel
 
 
 # AQI DB Schema Design
